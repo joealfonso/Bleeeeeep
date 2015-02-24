@@ -19,12 +19,12 @@ function onYouTubeIframeAPIReady() {
 			'onStateChange': onPlayerStateChange
 		}
 	});
-}
+};
 
 // 4. The API will call this function when the video player is ready.
 function onPlayerReady(event) {
 	event.target.playVideo();
-}
+};
 
 // 5. The API calls this function when the player's state changes.
 //    The function indicates that when playing a video (state=1),
@@ -35,10 +35,10 @@ function onPlayerStateChange(event) {
 		setTimeout(stopVideo, 0);
 		done = true;
 	}
-}
+};
 function stopVideo() {
 	player.stopVideo();
-}
+};
 
 
 //<!--Script for input field-->
@@ -68,11 +68,11 @@ function stopVideo() {
 
 	function onInputFocus( ev ) {
 		classie.add( ev.target.parentNode, 'input--filled' );
-	}
+	};
 
 	function onInputBlur( ev ) {
 		if( ev.target.value.trim() === '' ) {
 			classie.remove( ev.target.parentNode, 'input--filled' );
 		}
 	}
-})();
+});

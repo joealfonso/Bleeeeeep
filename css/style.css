@@ -2,27 +2,19 @@ body {
   background-color: #f0efee;
 }
 
-.container {
-  height:1000px;
-}
 
-.video-placeholder {
-  display: block;
-  position: relative;
-  width:426px;
-  height:240px;
-  background-color: #404d5b;
-  margin: 20px auto 0 auto;
-}
+
 
 .btn-bleep {
   position:relative;
   margin: 20px auto 0 auto;
   display: block;
 	cursor: pointer;
-  width:95px;
+  width:155px;
+	height:55px;
   color: #f0efee;
-  font-size: 20px;
+	line-height:30px;
+  font-size: 25px;
   background: #404d5b;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -34,6 +26,6 @@ body {
 
 .btn-bleep:hover {
   color: #f0efee;
-  background: #556577;
+  background: hsl(211, 17%, 40%);
 }
 
